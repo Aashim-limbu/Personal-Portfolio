@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 * {
 	margin: 0;
 	padding: 0;
@@ -23,13 +20,16 @@
 	--color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
 	--color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
-	--container-width-lg: 76%;
+	/* GENERAL CONTAINER VARIABLES */
+	--container-width-lg: 80%;
 	--container-width-md: 90%;
 
+	/* BORDER RADIUS VARIABLES */
 	--border-radius-1: 1.2rem;
 	--border-radius-2: 0.8rem;
 	--border-radius-3: 0.5rem;
 
+	/* GENERAL TRANSITION VARIABLE */
 	--transition: all 500ms ease;
 }
 
@@ -43,12 +43,14 @@ body {
 	font-size: 0.9rem;
 }
 
+/* GENERAL CONTAINER CLASS */
 .container {
 	width: var(--container-width-lg);
 	margin-inline: auto;
 	max-width: 1920px;
 }
 
+/* GENERAL SECTION STYLES */
 section {
 	padding: 10rem 0;
 	background: var(--color-light);
@@ -69,7 +71,7 @@ section > p {
 	width: 40%;
 }
 
-/* to change */
+/* GENERAL SECTION STYLES */
 a {
 	/* color: var(--color-white); */
 	transition: var(--transition);
