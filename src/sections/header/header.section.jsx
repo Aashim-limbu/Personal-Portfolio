@@ -12,27 +12,30 @@ function Header() {
 				<p>
 					Passionate Full Stack Developer specializing in front end development
 					with a focus on building out functional and dynamic user interfaces
-					using React.js. Currently expanding skills in backend development.
-					Seeking to create seamless and impactful web experiences
+					using React.js.
 				</p>
 				<div className="header_cta">
-					<a href="#contact"> Let's Talk</a>
-					<a href="#portfolio"> My Work</a>
+					<a href="#contact" className="btn primary">
+						{" "}
+						Let's Talk
+					</a>
+					<a href="#portfolio" className="btn light">
+						{" "}
+						My Work
+					</a>
 				</div>
 				<div className="header_socials">
-					<ul>
-						{data.map((element) => (
-							<a
-								key={element.id}
-								href={element.link}
-								target="_blank"
-								rel="noopener noreferrer"
-								alt="linked-in"
-							>
-								{element.icon}
-							</a>
-						))}
-					</ul>
+					{data.map((element) => (
+						<a
+							key={element.id}
+							href={element.link}
+							target="_blank"
+							rel="noopener noreferrer"
+							alt="linked-in"
+						>
+							{element.icon}
+						</a>
+					))}
 				</div>
 			</div>
 		</header>
