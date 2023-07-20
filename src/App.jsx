@@ -1,6 +1,6 @@
 import Header from "./sections/header/header.section";
 import NavBar from "./sections/navbar/nav-bar.section";
-import About from "./sections/about/about,section";
+import About from "./sections/about/about.section";
 import Services from "./sections/services/services.section";
 import Portfolio from "./sections/portfolio/portfolio.section";
 import FAQs from "./sections/faq's/faqs.section";

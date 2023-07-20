@@ -7,7 +7,7 @@ nav {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: p;
+	z-index: 9;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 	transition: var(--transition);
 }
